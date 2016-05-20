@@ -5,7 +5,7 @@
 	</a>
 	<ul class="dropdown-menu" role="menu">
 		%{-- <nav:menu id="nav"  scope="user/catalogos"/> --}%
-		<nav:menu id="nav"  scope="user/catalogos" custom="true">
+		<nav:menu id="nav"  scope="app/catalogos" custom="true">
 			<li>
 				<p:callTag tag="g:link"
 				           attrs="${linkArgs + [class:active ? 'active' : '']}">

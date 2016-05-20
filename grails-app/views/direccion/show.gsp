@@ -3,105 +3,76 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
-		<g:set var="entityName" value="${message(code: 'direccion.label', default: 'Direccion')}" />
-		<title><g:message code="default.show.label" args="[entityName]" /></title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Direccion</title>
+		<asset:stylesheet src="datatables/dataTables.css"/>
+		<asset:javascript src="datatables/dataTables.js"/> 
 	</head>
 	<body>
-		<a href="#show-direccion" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div class="nav" role="navigation">
-			<ul>
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-			</ul>
-		</div>
-		<div id="show-direccion" class="content scaffold-show" role="main">
-			<h1><g:message code="default.show.label" args="[entityName]" /></h1>
-			<g:if test="${flash.message}">
-			<div class="message" role="status">${flash.message}</div>
-			</g:if>
-			<ol class="property-list direccion">
-			
-				<g:if test="${direccionInstance?.calle}">
-				<li class="fieldcontain">
-					<span id="calle-label" class="property-label"><g:message code="direccion.calle.label" default="Calle" /></span>
-					
-						<span class="property-value" aria-labelledby="calle-label"><g:fieldValue bean="${direccionInstance}" field="calle"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${direccionInstance?.numeroInterior}">
-				<li class="fieldcontain">
-					<span id="numeroInterior-label" class="property-label"><g:message code="direccion.numeroInterior.label" default="Numero Interior" /></span>
-					
-						<span class="property-value" aria-labelledby="numeroInterior-label"><g:fieldValue bean="${direccionInstance}" field="numeroInterior"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${direccionInstance?.numeroExterior}">
-				<li class="fieldcontain">
-					<span id="numeroExterior-label" class="property-label"><g:message code="direccion.numeroExterior.label" default="Numero Exterior" /></span>
-					
-						<span class="property-value" aria-labelledby="numeroExterior-label"><g:fieldValue bean="${direccionInstance}" field="numeroExterior"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${direccionInstance?.colonia}">
-				<li class="fieldcontain">
-					<span id="colonia-label" class="property-label"><g:message code="direccion.colonia.label" default="Colonia" /></span>
-					
-						<span class="property-value" aria-labelledby="colonia-label"><g:fieldValue bean="${direccionInstance}" field="colonia"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${direccionInstance?.municipio}">
-				<li class="fieldcontain">
-					<span id="municipio-label" class="property-label"><g:message code="direccion.municipio.label" default="Municipio" /></span>
-					
-						<span class="property-value" aria-labelledby="municipio-label"><g:fieldValue bean="${direccionInstance}" field="municipio"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${direccionInstance?.codigoPostal}">
-				<li class="fieldcontain">
-					<span id="codigoPostal-label" class="property-label"><g:message code="direccion.codigoPostal.label" default="Codigo Postal" /></span>
-					
-						<span class="property-value" aria-labelledby="codigoPostal-label"><g:fieldValue bean="${direccionInstance}" field="codigoPostal"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${direccionInstance?.estado}">
-				<li class="fieldcontain">
-					<span id="estado-label" class="property-label"><g:message code="direccion.estado.label" default="Estado" /></span>
-					
-						<span class="property-value" aria-labelledby="estado-label"><g:fieldValue bean="${direccionInstance}" field="estado"/></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${direccionInstance?.pais}">
-				<li class="fieldcontain">
-					<span id="pais-label" class="property-label"><g:message code="direccion.pais.label" default="Pais" /></span>
-					
-						<span class="property-value" aria-labelledby="pais-label"><g:fieldValue bean="${direccionInstance}" field="pais"/></span>
-					
-				</li>
-				</g:if>
-			
-			</ol>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="alert alert-info">
+						<h3>
+							<p class="text-center"> Direccion</p>
+						</h3>
+						<g:if test="${flash.message}">
+							<span class="label label-warning">${flash.message}</span>
+						</g:if> 
+					</div>
+				</div>
+			</div><!-- end .row Titulo-->
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<ul class="nav nav-pills">
+					  <li role="presentation" ><g:link class="list" controller="cliente" action="index"><g:message code="Catalogo"/></g:link></li>
+					</ul>
+				</div>
+									
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+							<g:form class="form-horizontal" action="save" >	
+
+								<div class="panel panel-primary">
+									<div class="panel-heading">Direccion</div>
+								  <div class="panel-body">
+								    <g:hasErrors bean="${direccionInstance}">
+								    	<div class="alert alert-danger">
+								    		<ul class="errors" >
+								    			<g:renderErrors bean="${direccionInstance}" as="list" />
+								    		</ul>
+								    	</div>
+								    	
+								    </g:hasErrors>
+									<f:with bean="${direccionInstance}">
+										<f:display property="calle" widget-class="form-control"/>
+										<f:display property="colonia" widget-class="form-control"/>
+										<f:display property="numeroInterior" widget-class="form-control"/>
+									</f:with>
+								  </div>
+								</div>
+							</g:form>
+				</div>
+			</div>
+			<div class="row">
 			<g:form url="[resource:direccionInstance, action:'delete']" method="DELETE">
-				<fieldset class="buttons">
-					<g:link class="edit" action="edit" resource="${direccionInstance}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
-					<g:actionSubmit class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+				<fieldset class="buttons col-md-offset-4 col-md-4">
+				 	<button type="button" class="btn btn-default">
+				 		<g:link class="edit" action="edit" resource="${direccionInstance}"><g:message code="default.button.edit.label" default="Edit" /></g:link>	
+				 	</button>
+					
+					
 				</fieldset>
 			</g:form>
 		</div>
+
+
+
+		</div>
+
 	</body>
 </html>

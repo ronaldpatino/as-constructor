@@ -27,6 +27,9 @@ class Proveedor {
 
 	Boolean vtoRevision=true
 
+	Contacto contacto
+
+	DireccionProv direccion
 	
 
 	String tipo
@@ -35,15 +38,10 @@ class Proveedor {
 
 	Date lastUpdated
 
-	List direcciones
-
-	List contactos
 
 	
 
-	static hasMany=[
-		direcciones:Direccion,contactos:Contacto
-	]
+	
 
     static constraints = {
     	rfc size:12..13
@@ -54,9 +52,10 @@ class Proveedor {
     	
     }
 
- 	static mapping = {
- 		direcciones cascade:"all-delete-orphan"
- 	}
+    static embedded = ['contacto','direccion']
+
+
+ 	
 
 
 }

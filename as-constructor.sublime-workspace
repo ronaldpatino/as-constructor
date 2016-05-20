@@ -1,1 +1,933 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"apell",
+				"apellidoMaterno"
+			],
+			[
+				"apellido",
+				"apellidoPaterno"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"findAl",
+				"findAllBy"
+			],
+			[
+				"cliente",
+				"clienteInstance"
+			],
+			[
+				"Image",
+				"ImageCommand"
+			],
+			[
+				"Regis",
+				"RegistroClienteCommand"
+			],
+			[
+				"mostrar",
+				"mostrar1"
+			],
+			[
+				"each",
+				"eachRow"
+			],
+			[
+				"FactVen",
+				"FactVentasSemBi"
+			],
+			[
+				"total",
+				"totalLinea"
+			],
+			[
+				"marge",
+				"margenPorcentajeUt"
+			],
+			[
+				"menorP",
+				"menorParticipacion"
+			],
+			[
+				"mayor",
+				"mayorToneladas"
+			],
+			[
+				"inv",
+				"inventarios"
+			],
+			[
+				"pa",
+				"participacion"
+			],
+			[
+				"obtener",
+				"obtenerMes"
+			],
+			[
+				"feh",
+				"fechaFinal"
+			],
+			[
+				"fecha",
+				"fechaFinal"
+			],
+			[
+				"set",
+				"setup	setUp() { … }"
+			],
+			[
+				"get",
+				"getInstance"
+			],
+			[
+				"oBtener",
+				"obtenerMes"
+			],
+			[
+				"Inventario",
+				"inventarioAlcance"
+			],
+			[
+				"por",
+				"porVencer"
+			],
+			[
+				"linea",
+				"lineaCredito"
+			],
+			[
+				"fech",
+				"fechaFinSem"
+			],
+			[
+				"FECHA",
+				"FECHA_CORTE"
+			],
+			[
+				"costopro",
+				"CostoPromedioBi"
+			],
+			[
+				"ma",
+				"mapping"
+			],
+			[
+				"origen",
+				"origenId"
+			],
+			[
+				"precio",
+				"precioCortes"
+			],
+			[
+				"dsct",
+				"dsctoEsp"
+			],
+			[
+				"clase",
+				"claseId"
+			],
+			[
+				"sucursa",
+				"sucursalId"
+			],
+			[
+				"ori",
+				"origenId"
+			],
+			[
+				"marca",
+				"marcaId"
+			],
+			[
+				"FactVe",
+				"sqlFactVentasDet"
+			],
+			[
+				"vent",
+				"ventaCre-venta"
+			],
+			[
+				"uti",
+				"utilidadCre"
+			],
+			[
+				"costoC",
+				"costoCon"
+			],
+			[
+				"util",
+				"utilidadCon"
+			],
+			[
+				"costo",
+				"costoCre"
+			],
+			[
+				"utilidadC",
+				"utilidadCre"
+			],
+			[
+				"cancel",
+				"canceladasCon"
+			],
+			[
+				"cancelad",
+				"canceladasCon"
+			],
+			[
+				"cancela",
+				"canceladasCre"
+			],
+			[
+				"utilidadPorce",
+				"utilidadPorcentajeCre"
+			],
+			[
+				"devou",
+				"devolucionesCre"
+			],
+			[
+				"facturas",
+				"facturasCre"
+			],
+			[
+				"venta",
+				"ventaCre"
+			],
+			[
+				"toneladas",
+				"toneladasCre"
+			],
+			[
+				"year",
+				"yearFechaIni"
+			],
+			[
+				"FECHA_i",
+				"FECHA_INI_YEAR"
+			],
+			[
+				"mesf",
+				"mesFechaFinal"
+			],
+			[
+				"mesfe",
+				"mesFechaInicial"
+			],
+			[
+				"FECHA_ini",
+				"FECHA_INI_MES"
+			],
+			[
+				"sq",
+				"sqlVentasDetSemana"
+			],
+			[
+				"utilidad",
+				"utilidadPorcentajeCre"
+			],
+			[
+				"uit",
+				"utilidadCre"
+			],
+			[
+				"fechaFin",
+				"fechaFinSem"
+			],
+			[
+				"fechai",
+				"fechaIniSem"
+			],
+			[
+				"mesFe",
+				"mesFechaFinal"
+			],
+			[
+				"mesfec",
+				"mesFechaInicial"
+			],
+			[
+				"con",
+				"constraints"
+			],
+			[
+				"cla",
+				"clave"
+			],
+			[
+				"importar",
+				"importarProductosBi"
+			],
+			[
+				"importarClie",
+				"importarClienteCreditoBi"
+			],
+			[
+				"clien",
+				"clienteCredito"
+			],
+			[
+				"importador",
+				"importarCobradorBi"
+			],
+			[
+				"lina",
+				"lineaId"
+			],
+			[
+				"fec",
+				"fechaFinal"
+			],
+			[
+				"comi",
+				"comisionCredito"
+			],
+			[
+				"comision",
+				"comisionContado"
+			],
+			[
+				"comisio",
+				"comisionContado"
+			],
+			[
+				"comsi",
+				"comisionContado"
+			],
+			[
+				"apel",
+				"apellidoMaterno"
+			],
+			[
+				"ape",
+				"apellidoMaterno"
+			],
+			[
+				"import",
+				"importarLineas"
+			],
+			[
+				"importr",
+				"importarProductos"
+			],
+			[
+				"importado",
+				"importadorService"
+			],
+			[
+				"buil",
+				"buildSql"
+			],
+			[
+				"bui",
+				"buildSql"
+			],
+			[
+				"preci",
+				"precionContado"
+			],
+			[
+				"mail",
+				"mail2"
+			],
+			[
+				"cheque",
+				"chequesDevueltos"
+			],
+			[
+				"per",
+				"permitirCheque"
+			],
+			[
+				"clienet",
+				"cliente_id"
+			],
+			[
+				"importa",
+				"importadorService"
+			],
+			[
+				"has",
+				"hasMany"
+			],
+			[
+				"pari",
+				"partidas"
+			],
+			[
+				"depurdo",
+				"depuradoUser"
+			],
+			[
+				"cancelado",
+				"canceladoUser"
+			],
+			[
+				"revision",
+				"revisionUsuario"
+			],
+			[
+				"tipo",
+				"tipoDeVenta"
+			],
+			[
+				"trans",
+				"transform"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "grails-app/views/index.gsp",
+			"settings":
+			{
+				"buffer_size": 1869,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "grails-app/views/home/index.gsp",
+			"settings":
+			{
+				"buffer_size": 1844,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/_menu",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/cotizacion",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/direccion",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/home",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/assets",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/src/main/groovy"
+	],
+	"file_history":
+	[
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/conf/AppNavigation.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/cotizacion/index.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/empleado/create.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/index.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/home/index.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/_menu/_navbar.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/cliente/create.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/proveedor/create.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/empleado/index.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/cliente/index.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/controllers/com/as/core/ProveedorController.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/common/_contacto.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/proveedor/show.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/proveedor/edit.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/ContactoEmpleado.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/DatosPersonales.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/src/groovy/com/as/core/Contacto.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/empleado/_empleados.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/proveedor/index.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/proveedor/_form.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/Cliente.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/Proveedor.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/src/groovy/com/as/core/DireccionProv.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/controllers/com/as/core/DireccionController.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/layouts/main.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/cliente/edit.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/Direccion.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/direccion/edit.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/direccion/show.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/cliente/show.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/theme/products-WB0BLML90/dist/libs/bootstrap/css/bootstrap.css",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/direccion/crearDireccionCliente.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/layouts/catalogos.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/_menu/_operaciones.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/_menu/_catalogos.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/controllers/com/as/core/ClienteController.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/layouts/lay.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/direccion/agregarDireccionCliente.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/layouts/application.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/views/_menu/_footer.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/target/work/plugins/cxf-client-2.0/src/groovy/com/grails/cxf/client/exception/CxfClientException.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/Empleado.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/BajaEmpleado.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/PerfilEmpleado.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/conf/DataSource.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/conf/BuildConfig.groovy",
+		"/Users/Luis/Documents/MyDocs/Asist/as-constructor/grails-app/domain/com/as/core/Contacto.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/views/layouts/operaciones.gsp",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/views/cliente/index.gsp",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/views/layouts/catalogos.gsp",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/views/_menu/_footer.gsp",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/views/_menu/_navbar.gsp",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/views/_menu/_user.gsp",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/web-app/WEB-INF/sitemesh.xml",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/assets/stylesheets/luxor.css",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/views/layouts/main.gsp",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/conf/BuildConfig.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/conf/BootStrap.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/lxMobix/grails-app/assets/stylesheets/application.css",
+		"/Users/Luis/Documents/MyDocs/Asist/asist-constructor/grails-app/conf/application.yml",
+		"/Users/Luis/Documents/MyDocs/Asist/asist-constructor/build.gradle",
+		"/Users/Luis/Documents/MyDocs/Asist/asist-constructor/grails-app/views/layouts/main.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/asist-constructor/grails-app/views/proveedor/index.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/asist-constructor/grails-app/views/cliente/index.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/asist-constructor/grails-app/views/cliente/mostrar.gsp",
+		"/Users/Luis/Documents/MyDocs/Asist/asist-constructor/grails-app/views/cliente/mostrar1.gsp",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/inventario/CostoPromedioService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/integracion/ImportadorFactVentsDetService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/integracion/ImportadorFactVentsDetService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/conf/application.yml",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/MargenAnualLinea.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/PedidosPorLlegar.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/InventarioSucursal.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/DiscrepanciaInventarioGlobal.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/InventarioAlcance.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/ClienteAtrasoMax.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/integracion/ImportadorService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/integracion/ImportadorDeCuentasPorCobrarService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/CalendarioBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/build.gradle",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/VentasCanceladasSem.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/integracion/ImportadorDeProductosService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Producto.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Contacto.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/CostoPromedio.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/CostoPromedioBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/FactVentasSemBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/integracion/ImportadorClienteService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/FactVentasDet.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/VendedorBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/CostoPromedio.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/FactVentasdet.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/integracion/ImportadorCobradorVendedorService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/src/main/groovy/sx/Periodo.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/bi/CalendarioService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/ClaseBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/ClienteBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/VentaDetSemanal.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/LineaBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/ClienteCreditoBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/MarcaBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/ProductoBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Vendedor.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/CobradorBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Marca.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Linea.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Cobrador.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Clase.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/ClienteCredito.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/bi/SucursalBi.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Cliente.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/integracion/ImportadorDeFichasService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/tesoreria/Ficha.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Telefono.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/Proveedor.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/core/CfdiMail.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/tesoreria/FichaDet.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/ImportadorFichasService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/services/sx/server/ImportadorService.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/tesoreria/Traspaso.groovy",
+		"/Users/Luis/Documents/MyDocs/GrailsProjects/sx-server/grails-app/domain/sx/tesoreria/CuentaDeBanco.groovy",
+		"/Users/Luis/Documents/projects/sx4-distribucion/grails-app/domain/sx4/distribucion/Surtido.groovy",
+		"/Users/Luis/Documents/projects/sx4-distribucion/grails-app/conf/logback.groovy",
+		"/Users/Luis/Documents/projects/sx4-distribucion/grails-app/conf/application.yml",
+		"/Users/Luis/Documents/projects/sx4-distribucion/grails-app/domain/sx4/distribucion/Corte.groovy",
+		"/Users/Luis/Documents/projects/sx4-distribucion/grails-app/domain/sx4/VentaDet.groovy",
+		"/Users/Luis/Documents/projects/sx4-distribucion/grails-app/domain/sx4/Venta.groovy",
+		"/Users/Luis/Documents/projects/sx4-distribucion/grails-app/domain/sx4/Sucursal.groovy"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"searchForm",
+			"params",
+			"      \n",
+			"Cliente",
+			"rfc",
+			"id",
+			"fact_ventasdet",
+			"										",
+			" \n",
+			",\n",
+			"}*/\n",
+			"println",
+			"    	"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "grails-app/views/index.gsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Grails/View/GSP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "grails-app/views/home/index.gsp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Grails/View/GSP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "as-constructor.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"contac",
+				"RottFoleder/src/groovy/com/as/core/Contacto.groovy"
+			],
+			[
+				"pro",
+				"RottFoleder/grails-app/domain/com/as/core/Proveedor.groovy"
+			],
+			[
+				"clientr",
+				"RottFoleder/grails-app/controllers/com/as/core/ClienteController.groovy"
+			],
+			[
+				"cliente",
+				"RottFoleder/grails-app/domain/com/as/core/Cliente.groovy"
+			],
+			[
+				"urlma",
+				"Configuration/UrlMappings.groovy"
+			],
+			[
+				"buil",
+				"RottFoleder/build.gradle"
+			],
+			[
+				"ventaas",
+				"Domain Objects/sx/bi/VentasCanceladasSem.groovy"
+			],
+			[
+				"margena",
+				"Domain Objects/sx/bi/MargenAnualLinea.groovy"
+			],
+			[
+				"periodo",
+				"Groovy Source/sx/Periodo.groovy"
+			],
+			[
+				"build.gra",
+				"RottFoleder/build.gradle"
+			],
+			[
+				"inventarioal",
+				"RottFoleder/grails-app/domain/sx/bi/InventarioAlcance.groovy"
+			],
+			[
+				"importadorcuen",
+				"RottFoleder/grails-app/services/sx/server/integracion/ImportadorDeCuentasPorCobrarService.groovy"
+			],
+			[
+				"importadorfac",
+				"RottFoleder/grails-app/services/sx/server/integracion/ImportadorFactVentsDetService.groovy"
+			],
+			[
+				"factve",
+				"Services/sx/integracion/ImportadorFactVentsDetService.groovy"
+			],
+			[
+				"marg",
+				"RottFoleder/grails-app/domain/sx/bi/MargenAnualLinea.groovy"
+			],
+			[
+				"aplic",
+				"Configuration/application.yml"
+			],
+			[
+				"build",
+				"RottFoleder/build.gradle"
+			],
+			[
+				"importadorser",
+				"Services/sx/server/integracion/ImportadorService.groovy"
+			],
+			[
+				"importa",
+				"Services/sx/server/integracion/ImportadorDeProductosService.groovy"
+			],
+			[
+				"costopromediose",
+				"RottFoleder/grails-app/services/sx/inventario/CostoPromedioService.groovy"
+			],
+			[
+				"costp",
+				"Domain Objects/sx/bi/CostoPromedioBi.groovy"
+			],
+			[
+				"importadordepro",
+				"RottFoleder/grails-app/services/sx/server/integracion/ImportadorDeProductosService.groovy"
+			],
+			[
+				"importadop",
+				"Services/sx/server/integracion/ImportadorDeProductosService.groovy"
+			],
+			[
+				"calendariose",
+				"Services/sx/bi/CalendarioService.groovy"
+			],
+			[
+				"calendaro",
+				"Domain Objects/sx/bi/CalendarioBi.groovy"
+			],
+			[
+				"",
+				"RottFoleder/grails-app/domain/sx/bi/ClienteBi.groovy"
+			],
+			[
+				"clientebi",
+				"RottFoleder/grails-app/domain/sx/bi/ClienteBi.groovy"
+			],
+			[
+				"vendedor",
+				"Domain Objects/sx/core/Vendedor.groovy"
+			],
+			[
+				"product",
+				"Domain Objects/sx/core/Producto.groovy"
+			],
+			[
+				"marca",
+				"Domain Objects/sx/core/Marca.groovy"
+			],
+			[
+				"linea",
+				"Domain Objects/sx/core/Linea.groovy"
+			],
+			[
+				"clase",
+				"Domain Objects/sx/core/Clase.groovy"
+			],
+			[
+				"cobrador",
+				"Domain Objects/sx/core/Cobrador.groovy"
+			],
+			[
+				"line",
+				"Domain Objects/sx/core/Linea.groovy"
+			],
+			[
+				"cont",
+				"Domain Objects/sx/core/Contacto.groovy"
+			],
+			[
+				"trapaso",
+				"Domain Objects/sx/tesoreria/Traspaso.groovy"
+			],
+			[
+				"fichadet",
+				"Domain Objects/sx/tesoreria/FichaDet.groovy"
+			],
+			[
+				"cuentabanco",
+				"Domain Objects/sx/tesoreria/CuentaDeBanco.groovy"
+			],
+			[
+				"ficha",
+				"Domain Objects/sx/tesoreria/Ficha.groovy"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

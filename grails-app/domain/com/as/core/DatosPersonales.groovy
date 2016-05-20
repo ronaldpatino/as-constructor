@@ -14,6 +14,10 @@ class DatosPersonales {
 	String nombreDelPader
 	String nombreDeLaMadre
 
+	DireccionProv direccion
+	
+	static embedded = ['direccion']
+
 
     static constraints = {
 		estadoCivil inList:['SOLTERO','CASADO','UNION_LIBRE','DIVORCIADO','VIUDO']

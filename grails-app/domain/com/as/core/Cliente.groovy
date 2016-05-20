@@ -21,6 +21,8 @@ class Cliente {
 
 	String rfc
 
+	Contacto contacto
+
 	Long   grupoRfc=0
 
 	String curp
@@ -43,10 +45,14 @@ class Cliente {
 
 	List direcciones
 
-	List contactos
+	
 	
 
-	static hasMany=[contactos:Contacto,direcciones:Direccion]
+	static hasMany=[direcciones:Direccion]
+
+	static embedded = ['contacto']
+
+
 
     static constraints = {
     	apellidoPaterno nullable:true
@@ -65,7 +71,6 @@ class Cliente {
     static mapping={
     	
     	rfcCliente composite: ['rfc', 'grupoRfc'], unique: true 
-   		contactos cascade:"all-delete-orphan"
     	direcciones cascade:"all-delete-orphan"
     	
     }

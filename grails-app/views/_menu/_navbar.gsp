@@ -7,16 +7,16 @@
 				<span class="icon-bar"></span>
 			</button>
 			<g:link controller="home" action="index" class="navbar-brand">
-				<i class="fa fa-calculator"></i> LX Mobix
+				<i class="glyphicon glyphicon-home"></i> ASIST
 			</g:link>
 		</div>
 
-		<sec:ifLoggedIn>
+	
 		
 		<div class="collapse navbar-collapse" id="mainMenu">
 			
 			
-			<g:if test="${session.empresa}">
+			
 				<ul class="nav navbar-nav ">
 					<g:render template="/_menu/catalogos"/>
 				</ul>
@@ -29,7 +29,7 @@
 				<ul class="nav navbar-nav ">
 					<g:render template="/_menu/tesoreria"/>
 				</ul>
-			</g:if>
+			
 			
 			<ul class="nav navbar-nav navbar-right">
 				<g:render template="/_menu/user"/>
@@ -39,7 +39,6 @@
 			
 		</div>
 		
-		</sec:ifLoggedIn>
 	</div>
 	
 </nav>

@@ -2,40 +2,75 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
-		<g:set var="entityName" value="${message(code: 'direccion.label', default: 'Direccion')}" />
-		<title><g:message code="default.edit.label" args="[entityName]" /></title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Direccion</title>
+		<asset:stylesheet src="datatables/dataTables.css"/>
+		<asset:javascript src="datatables/dataTables.js"/> 
 	</head>
 	<body>
-		<a href="#edit-direccion" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div class="nav" role="navigation">
-			<ul>
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-			</ul>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="alert alert-info">
+						<h3>
+							<p class="text-center"> Direccion</p>
+						</h3>
+						<g:if test="${flash.message}">
+							<span class="label label-warning">${flash.message}</span>
+						</g:if> 
+					</div>
+				</div>
+			</div><!-- end .row Titulo-->
+
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+							<g:form class="form-horizontal" action="save" >	
+
+								<div class="panel panel-primary">
+									<div class="panel-heading">Direccion</div>
+								  <div class="panel-body">
+								    <g:hasErrors bean="${direccionInstance}">
+								    	<div class="alert alert-danger">
+								    		<ul class="errors" >
+								    			<g:renderErrors bean="${direccionInstance}" as="list" />
+								    		</ul>
+								    	</div>
+								    	
+								    </g:hasErrors>
+									<f:with bean="${direccionInstance}">
+					
+													<f:field property="calle" widget-class="form-control"/>
+													<f:field property="numeroInterior" widget-class="form-control" input-type="number"/>
+													<f:field property="numeroExterior" widget-class="form-control" input-type="number"/>
+													<f:field property="colonia" widget-class="form-control" />
+													<f:field property="codigoPostal" widget-class="form-control" input-type="number"/>
+													<f:field property="municipio" widget-class="form-control" input-type="text"/>
+													<f:field property="estado" widget-class="form-control" input-type="text"/>
+													<f:field property="pais" widget-class="form-control" input-type="text"/>
+												</f:with>
+								  </div>
+								</div>
+							</g:form>
+							<div class="row">
+				<div class="col-md-6 col-md-offset-4">
+					<g:form url="[resource:direccionInstance, action:'update']" method="PUT" >
+						<fieldset >
+						<g:actionSubmit class="save" action="update" value="${message(code: 'default.button.update.label', default: 'Update')}" />
+						</fieldset>
+					</g:form>
+				</div>
+			</div>
+				</div>
+			</div>
+			
+			
+
 		</div>
-		<div id="edit-direccion" class="content scaffold-edit" role="main">
-			<h1><g:message code="default.edit.label" args="[entityName]" /></h1>
-			<g:if test="${flash.message}">
-			<div class="message" role="status">${flash.message}</div>
-			</g:if>
-			<g:hasErrors bean="${direccionInstance}">
-			<ul class="errors" role="alert">
-				<g:eachError bean="${direccionInstance}" var="error">
-				<li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message error="${error}"/></li>
-				</g:eachError>
-			</ul>
-			</g:hasErrors>
-			<g:form url="[resource:direccionInstance, action:'update']" method="PUT" >
-				<g:hiddenField name="version" value="${direccionInstance?.version}" />
-				<fieldset class="form">
-					<g:render template="form"/>
-				</fieldset>
-				<fieldset class="buttons">
-					<g:actionSubmit class="save" action="update" value="${message(code: 'default.button.update.label', default: 'Update')}" />
-				</fieldset>
-			</g:form>
-		</div>
+
+		
+			
+			
+		
 	</body>
 </html>

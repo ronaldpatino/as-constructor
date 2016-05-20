@@ -13,7 +13,7 @@
             	<div class="col-md-3">
 
             		<div class="list-group">
-                       <nav:menu id="nav" custom="true" scope="user/catalogos">
+                       <nav:menu id="nav" custom="true" scope="app/catalogos">
                            <p:callTag tag="g:link"
                                       attrs="${linkArgs + [class:active ? 'list-group-item  active' : 'list-group-item ']}">
                              

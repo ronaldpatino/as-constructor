@@ -4,7 +4,7 @@
 		Operaciones <b class="caret"></b>
 	</a>
 	<ul class="dropdown-menu" role="menu">
-		<nav:menu id="nav"  scope="user/operaciones" custom="true">
+		<nav:menu id="nav"  scope="app/operaciones" custom="true">
 			<li>
 				<p:callTag tag="g:link"
 				           attrs="${linkArgs + [class:active ? 'active' : '']}">

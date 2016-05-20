@@ -37,7 +37,7 @@
 					<%--<nav:menu class="nav nav-pills nav-stacked" 
 						scope="app/catalogos/empleado"/>
 				--%>
-					<nav:menu class="nav nav-pills nav-stacked"  scope="app/catalogos/empleado" custom="true">
+					<nav:menu class="nav nav-pills nav-stacked"  scope="app/catalogos/cliente" custom="true">
 	    				<li class="${active?'active':''}">
 	    					
 	        					<p:callTag tag="g:link">
