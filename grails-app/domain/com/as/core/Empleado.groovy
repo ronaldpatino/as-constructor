@@ -65,7 +65,8 @@ class Empleado  {
 		contacto nullable:true
 		baja nullable:true
 		activo nullable:true
-		
+		alta nullable:true
+		fechaDeNacimiento nullable:true
     }
 	
 	static transients = ['nombre']

@@ -93,6 +93,17 @@
 		</div>
 
 		<!-- end .row 2 -->
+		<div class="row">
+			<div class="col-md-6 col-md-offset-6">
+					<g:form url="[resource:empleadoInstance, action:'delete']" method="DELETE">
+				<fieldset class="buttons col-md-offset-4 col-md-4">
+					<g:link class="edit" action="edit" resource="${empleadoInstance}"><g:message code="default.button.edit.label" default="Edit" /></g:link>	
+					<g:actionSubmit class="delete" action="delete" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+				</fieldset>
+			</g:form>
+			</div>
+			
+		</div>
 
 	</div>
 

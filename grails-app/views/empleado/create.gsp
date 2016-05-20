@@ -24,22 +24,14 @@
 		</div><!-- end .row -->
 		<div class="row">
 
+		<!-- Sidebar -->
 			<div class="col-md-2">
 				<div class="panel panel-default">
 					<div class="panel-heading">Consultas</div>
-
-					<%--<nav:menu class="nav nav-pills nav-stacked" 
-						scope="app/catalogos/empleado"/>
-				--%>
-					<nav:menu class="nav nav-pills nav-stacked"  scope="app/catalogos/empleados" custom="true">
-	    				<li class="${active?'active':''}">
-	    					
-	        					<p:callTag tag="g:link">
-	               					<nav:title item="${item}"/>
-	        					</p:callTag>
-	        			</li>
-	    				
-					</nav:menu>
+					<ul class="nav nav-pills nav-stacked">
+					  <li role="presentation"><g:link action="datosPersonales" id="${empleadoInstance.id}">Datos Personales</g:link></li>
+					 <li role="presentation"><g:link action="datosPersonales" id="${empleadoInstance.id}">Contacto</g:link></li>
+					</ul>
 				</div>
 			</div>
 
@@ -57,13 +49,24 @@
 					    			<g:renderErrors bean="${empleadoInstance}" as="list" />
 					    		</ul>
 					    	</div>
-					    	
+					    
+
+	
 					    </g:hasErrors>
 						<f:with bean="${empleadoInstance}">
 							<f:field property="apellidoPaterno" widget-class="form-control"/>
 							<f:field property="apellidoMaterno" widget-class="form-control"/>
+							<f:field property="nombres" widget-class="form-control"/>
+							<f:field property="nombre" widget-class="form-control"/>
+							<f:field property="clave" widget-class="form-control"/>
+							<f:field property="curp" widget-class="form-control"/>
+							<f:field property="rfc" widget-class="form-control"/>
+							<f:field property="alta" input-class="form-control" />	
+							<f:field property="sexo" widget-class="form-control"/>
+							<f:field property="status" widget-class="form-control"/>
+							<f:field property="fechaDeNacimiento" input-class="form-control" />	
+							<f:field property="activo" widget-class="form-control"/>
 							
-						
 
 
 		</f:with>
@@ -95,58 +98,8 @@
 		
 </div>
 
-<content tag="actions">
-	
-</content>
 
-<content tag="content">
-	<form class="form-horizontal" method="post">
-		
-		<div class="col-md-6">
-			<fieldset >
-				<f:with bean="${empleadoInstance}">
-					<f:field property="apellidoPaterno" input-class="form-control" />	
-					<f:field property="apellidoMaterno" input-class="form-control" />	
-					<f:field property="nombres" input-class="form-control" />	
-					<f:field property="fechaDeNacimiento" input-class="form-control" label="F.Nacimiento"/>	
-					<f:field property="sexo" input-class="form-control" />	
-				</f:with>
-			</fieldset>
-		
-		</div>
-		
-		<div class="col-md-6">
-		
-			<fieldset >
-				<f:with bean="${empleadoInstance}">
-						
-					<f:field property="curp" input-class="form-control" />	
-					<f:field property="rfc" input-class="form-control" />	
-					<f:field property="clave" input-class="form-control" />	
-					<f:field property="alta" input-class="form-control" />	
-					<f:field property="activo" input-class="form-control" />
-				</f:with>
-			</fieldset>
-			
-			
-			
-			
-			
-		</div>
-	
-	
-	<div class="form-group">
-    	<div class="col-sm-offset-8 col-sm-12">
-      		<g:actionSubmit class="btn btn-primary"  value="Salvar" action="save"/>
-      		<g:link class="btn btn-default" action="generales" id="${empleadoInstance.id}" >Cancelar</g:link>
-    	</div>
-	</div>
-	
 
-	
-
-	</form>
-</content>
 
 </body>
 </html>

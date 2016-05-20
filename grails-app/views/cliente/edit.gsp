@@ -1,41 +1,121 @@
+
 <%@ page import="com.as.core.Cliente" %>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="mainq">
-		<g:set var="entityName" value="${message(code: 'cliente.label', default: 'Cliente')}" />
-		<title><g:message code="default.edit.label" args="[entityName]" /></title>
+		<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Clientes</title>
+	<asset:stylesheet src="datatables/dataTables.css"/>
+	<asset:javascript src="datatables/dataTables.js"/> 
+	
 	</head>
 	<body>
-		<a href="#edit-cliente" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div class="nav" role="navigation">
-			<ul>q
-				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
-				<li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
-				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-			</ul>
-		</div>
-		<div id="edit-cliente" class="content scaffold-edit" role="main">
-			<h1><g:message code="default.edit.label" args="[entityName]" /></h1>
-			<g:if test="${flash.message}">
-			<div class="message" role="status">${flash.message}</div>
-			</g:if>
-			<g:hasErrors bean="${clienteInstance}">
-			<ul class="errors" role="alert">
-				<g:eachError bean="${clienteInstance}" var="error">
-				<li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message error="${error}"/></li>
-				</g:eachError>
-			</ul>
-			</g:hasErrors>
-			<g:form url="[resource:clienteInstance, action:'update']" method="PUT" >
-				<g:hiddenField name="version" value="${clienteInstance?.version}" />
-				<fieldset class="form">
-					<g:render template="form"/>
-				</fieldset>
-				<fieldset class="buttons">
-					<g:actionSubmit class="save" action="update" value="${message(code: 'default.button.update.label', default: 'Update')}" />
-				</fieldset>
-			</g:form>
+<div class="container">
+		
+		<div class="row">
+
+			<div class="col-md-12">
+
+				<div class="page-header">
+				  <h3>Alta de clientes  
+				  	<g:if test="${flash.message}">
+				  		<small><span class="label label-warning ">${flash.message}</span></small>
+				  	</g:if> 
+				  </h3>
+				</div>
+			</div>
+		</div><!-- end .row -->
+		
+
+		<div class="row ">
+			
+			<!-- Sidebar -->
+			<div class="col-md-2">
+				<div class="panel panel-default">
+					<div class="panel-heading">Consultas</div>
+
+					<%--<nav:menu class="nav nav-pills nav-stacked" 
+						scope="app/catalogos/empleado"/>
+				--%> <nav:menu id="nav" custom="true" scope="app/catalogos/cliente">
+                           <p:callTag tag="g:link"
+                                      attrs="${linkArgs + [class:active ? 'list-group-item  active' : 'list-group-item',id:clienteInstance.id]}">
+                             
+                              <i class="${item.data.icon ?:'fa fa-bars'}"></i>&nbsp;<nav:title item="${item}"/>
+
+
+                           </p:callTag>
+                       </nav:menu> 
+				</div>
+			</div>
+
+
+
+			<div class="col-md-6">
+				
+				<g:form class="form-horizontal" action="update" id="${clienteInstance.id}" method="PUT">
+
+					<div class="panel panel-primary">
+						<div class="panel-heading">Datos del cliente</div>
+					  <div class="panel-body">
+					    <g:hasErrors bean="${clienteInstance}">
+					    	<div class="alert alert-danger">
+					    		<ul class="errors" >
+					    			<g:renderErrors bean="${clienteInstance}" as="list" />
+					    		</ul>
+					    	</div>
+					    	
+					    </g:hasErrors>
+						<f:with bean="${clienteInstance}">
+							
+							<f:field property="razonSocial" widget-class="form-control"/>
+							<f:field property="clave" widget-class="form-control"/>
+							<f:field property="apellidoPaterno" widget-class="form-control"/>
+							<f:field property="apellidoMaterno" widget-class="form-control"/>
+							<f:field property="nombres" widget-class="form-control " />
+							<f:field property="rfc" widget-class="form-control"/>
+							<f:field property="curp" widget-class="form-control"/>
+							<label for="chk1">Persona fisica:</label>
+ 							<g:checkBox name="fisica" value="${clienteInstance?.fisica}"/><br/>
+ 							<label for="chk1">Activo:</label>
+							<g:checkBox name="activo" value="${clienteInstance?.activo}" /><br/>
+							<label for="chk1">Permitir Cheque:</label>
+							<g:checkBox name="permitirCheque" value="${clienteInstance?.permitirCheque}" /><br/>
+
+
+		</f:with>
+						
+					  </div>
+					
+					  <div class="panel-footer">
+					  	
+					  	<div class="form-group">
+					  		<div class="buttons col-md-offset-3">
+					  			<g:submitButton name="Actualizar" class="btn btn-primary " />
+					  			<g:link action="show" class="btn btn-default" id="${clienteInstance.id}"> Cancelar</g:link>
+					  		</div>
+					  	</div>
+					  </div>
+			
+
+					</div>
+
+				</g:form>
+				
+			</div>
+		</div> <!-- end .row 2 -->
+		
+		
+	
+
+
+
+
+
+
+
+
+		
 		</div>
 	</body>
 </html>

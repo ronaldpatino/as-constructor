@@ -1,7 +1,10 @@
 <html>
 <head>
-	<meta charset="UTF-8">
-	<r:require module="forms"/>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Empleados</title>
+	<asset:stylesheet src="datatables/dataTables.css"/>
+	<asset:javascript src="datatables/dataTables.js"/> 
 </head>
 <body>
 

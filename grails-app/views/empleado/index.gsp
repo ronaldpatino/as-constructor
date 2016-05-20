@@ -16,7 +16,7 @@
 			<div class="col-md-12">
 				<div class="alert alert-info">
 					<h3>
-						<p class="text-center"> Catálogo de Empelados</p>
+						<p class="text-center"> Catálogo de Empleados</p>
 					</h3>
 					<g:if test="${flash.message}">
 						<span class="label label-warning">${flash.message}</span>

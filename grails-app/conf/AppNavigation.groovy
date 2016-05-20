@@ -11,15 +11,17 @@ navigation={
 			direccion(controller:'cliente',action:'agregarDireccion')
 			}
 			proveedor(controller:'proveedor',action:'index')
-			empleados(controller:'empleado',action:'index'){
-				datosPersonales(controller:'empleado',action:'agregarDatosPersonales')
-				contacto(control:'empleado',action:'agregarContacto')
-			}
+			empleados(controller:'empleado',action:'index')
+			
 			perfilEmpleado(controller:'perfilEmpleado',action:'index')
 			productos(controller:'producto',action:'index')
 			herramientaEquipo(controller:'herramienta',action:'index')
 
 		}
+		 empleado(){
+		 		datosPersonales(action:'datosPersonales')
+				contacto(action:'agregarContacto')
+		 }
 		operaciones(){
 			cotizaciones(controller:'cotizacion',action:'index')
 		}

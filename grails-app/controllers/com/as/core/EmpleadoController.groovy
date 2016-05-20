@@ -101,4 +101,15 @@ class EmpleadoController {
             '*'{ render status: NOT_FOUND }
         }
     }
+
+
+    def datosPersonales(Empleado empleadoInstance){
+
+        if(!empleadoInstance){
+            redirect(controller:"home", action:"oops")
+        }
+
+         println "Agregando datos personales"
+        [empleadoInstance:empleadoInstance,edit:params.edit]
+    }
 }
