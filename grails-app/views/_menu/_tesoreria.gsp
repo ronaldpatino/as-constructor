@@ -4,7 +4,7 @@
 		Tesoreria <b class="caret"></b>
 	</a>
 	<ul class="dropdown-menu" role="menu">
-		<nav:menu id="nav"  scope="user/tesoreria" custom="true">
+		<nav:menu id="nav"  scope="app/tesoreria" custom="true">
 			<li>
 				<p:callTag tag="g:link"
 				           attrs="${linkArgs + [class:active ? 'active' : '']}">

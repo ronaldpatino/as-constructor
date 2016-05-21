@@ -7,4 +7,7 @@ class HomeController {
     def oops(){
 
     }
+    def enCostruccion(){
+    	
+    }
 }

@@ -13,9 +13,9 @@ navigation={
 			proveedor(controller:'proveedor',action:'index')
 			empleados(controller:'empleado',action:'index')
 			
-			perfilEmpleado(controller:'perfilEmpleado',action:'index')
-			productos(controller:'producto',action:'index')
-			herramientaEquipo(controller:'herramienta',action:'index')
+			perfilEmpleado(controller:'home',action:'enCostruccion')
+			productos(controller:'home',action:'enCostruccion')
+			herramientaEquipo(controller:'home',action:'enCostruccion')
 
 		}
 		 empleado(){
@@ -24,6 +24,16 @@ navigation={
 		 }
 		operaciones(){
 			cotizaciones(controller:'cotizacion',action:'index')
+			venta(controller:'home',action:'enCostruccion')
+			cobranza(controller:'home',action:'enCostruccion')
+			compra(controller:'home',action:'enCostruccion')
+			pagos(controller:'home',action:'enCostruccion')
+			nomina(controller:'home',action:'enCostruccion')
+		}
+		tesoreria(){
+			movimientos(controller:'home',action:'enCostruccion')
+			cobros(controller:'home',action:'enCostruccion')
+			pagos(controller:'home',action:'enCostruccion')
 		}
 		info(view:'info')
 	}
